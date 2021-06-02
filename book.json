@@ -1,0 +1,9 @@
+{
+	"title": "前端学习笔记",
+	"author": "cdd",
+	"gitbook": "2.x.x",
+	"plugins":[
+	    "-sectionx",
+	    "expandable-chapters"
+		]
+}
