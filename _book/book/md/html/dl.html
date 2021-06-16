@@ -1,0 +1,638 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>dl标签 | 前端学习笔记</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        <meta name="author" content="cdd">
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../md/html/gitbook.html" />
+    
+    
+    <link rel="prev" href="../../md/html/character-entities.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="1.12"
+        data-chapter-title="dl标签"
+        data-filepath="md/html/dl.md"
+        data-basepath="../.."
+        data-revision="Tue Dec 12 2017 15:50:24 GMT+0800 (中国标准时间)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="md/html/html.html">
+            
+                
+                    <a href="../../md/html/html.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        HTML
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="md/html/first.html">
+            
+                
+                    <a href="../../md/html/first.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        入门
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="md/html/abiaoqian.html">
+            
+                
+                    <a href="../../md/html/abiaoqian.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        a标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="md/html/amaodian.html">
+            
+                
+                    <a href="../../md/html/amaodian.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        a标签锚点
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="md/html/img.html">
+            
+                
+                    <a href="../../md/html/img.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        img标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="md/html/table.html">
+            
+                
+                    <a href="../../md/html/table.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        table表格
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="md/html/area.html">
+            
+                
+                    <a href="../../md/html/area.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        area标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="md/html/audio.html">
+            
+                
+                    <a href="../../md/html/audio.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        audio标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="md/html/picture.html">
+            
+                
+                    <a href="../../md/html/picture.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        picture标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="md/html/video.html">
+            
+                
+                    <a href="../../md/html/video.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        video标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="md/html/base.html">
+            
+                
+                    <a href="../../md/html/base.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.10.</b>
+                        
+                        base标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="md/html/character-entities.html">
+            
+                
+                    <a href="../../md/html/character-entities.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.11.</b>
+                        
+                        实体字符
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.12" data-path="md/html/dl.html">
+            
+                
+                    <a href="../../md/html/dl.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.12.</b>
+                        
+                        dl标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="md/html/gitbook.html">
+            
+                
+                    <a href="../../md/html/gitbook.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.13.</b>
+                        
+                        gitbook
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="md/html/icon.html">
+            
+                
+                    <a href="../../md/html/icon.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.14.</b>
+                        
+                        icon标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="md/html/iframe.html">
+            
+                
+                    <a href="../../md/html/iframe.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.15.</b>
+                        
+                        iframe标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="md/html/nodejs.html">
+            
+                
+                    <a href="../../md/html/nodejs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.16.</b>
+                        
+                        nodejs
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="md/html/ol.html">
+            
+                
+                    <a href="../../md/html/ol.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.17.</b>
+                        
+                        ol标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="md/html/ul.html">
+            
+                
+                    <a href="../../md/html/ul.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.18.</b>
+                        
+                        ul标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="md/html/weibo-component.html">
+            
+                
+                    <a href="../../md/html/weibo-component.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.19.</b>
+                        
+                        weibo组件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="md/html/form.html">
+            
+                
+                    <a href="../../md/html/form.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.20.</b>
+                        
+                        form标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="md/html/register.html">
+            
+                
+                    <a href="../../md/html/register.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.21.</b>
+                        
+                        register
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="md/css/css.html">
+            
+                
+                    <a href="../../md/css/css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        css
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="md/css/cssimport.html">
+            
+                
+                    <a href="../../md/css/cssimport.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        CSS的引入方式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="md/css/elementselector.html">
+            
+                
+                    <a href="../../md/css/elementselector.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        element元素选择器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="md/css/class&amp;idselector.html">
+            
+                
+                    <a href="../../md/css/class&amp;idselector.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        class&amp;id选择器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="md/css/relationselector.html">
+            
+                
+                    <a href="../../md/css/relationselector.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        relation关系选择器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="md/css/Pseudo-classselector.html">
+            
+                
+                    <a href="../../md/css/Pseudo-classselector.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        Pseudo-class伪类选择器
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../" >前端学习笔记</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h3 id="dl&#x6807;&#x7B7E;">dl&#x6807;&#x7B7E;</h3>
+<p>dl&#xFF1A;&#x81EA;&#x5B9A;&#x4E49;&#x5217;&#x8868;</p>
+<h4 id="example">Example</h4>
+<pre><code>&lt;body&gt;
+&lt;!--
+    &#x7B2C;&#x4E00;&#x5F20;&#x7EC4;&#x5408;&#xFF0C;&#x5E38;&#x89C4;&#x7EC4;&#x5408;
+--&gt;
+&lt;dl&gt;
+    &lt;dt&gt;&#x6211;&#x6700;&#x7231;&#x73A9;&#x7684;&#x6E38;&#x620F;&lt;/dt&gt;
+    &lt;dd&gt;&#x5403;&#x9E21;&#x6E38;&#x620F;&lt;/dd&gt;
+    &lt;dt&gt;&#x6211;&#x6700;&#x7231;&#x4E0A;&#x7684;&#x7F51;&#x7AD9;&lt;/dt&gt;
+    &lt;dd&gt;CSDN&#x7A0B;&#x5E8F;&#x733F;&#x4E4B;&#x5BB6;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;!--&#x7B2C;&#x4E8C;&#x79CD;&#x7EC4;&#x5408;&#xFF0C;&#x6807;&#x9898;&#x7EC4;&#x5408;--&gt;
+&lt;dl&gt;
+    &lt;dt&gt;&#x65B0;&#x95FB;1&lt;/dt&gt;
+    &lt;dt&gt;&#x65B0;&#x95FB;2&lt;/dt&gt;
+    &lt;dt&gt;&#x65B0;&#x95FB;3&lt;/dt&gt;
+&lt;/dl&gt;
+&lt;!--&#x7B2C;&#x4E09;&#x79CD;&#x7EC4;&#x5408;--&gt;
+&lt;dl&gt;
+        &lt;dt&gt;&#x82F1;&#x96C4;&#x5185;&#x5BB9;&lt;/dt&gt;
+        &lt;dd&gt;&#x4F60;&lt;/dd&gt;
+        &lt;dd&gt;&#x5514;&lt;/dd&gt;
+        &lt;dd&gt;&#x5514;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/body&gt;
+</code></pre><h4 id="out">out</h4>
+<p><img src="../../../media/3.png" alt="&#x4F8B;&#x5B50;&#x8F93;&#x51FA;"></p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../md/html/character-entities.html" class="navigation navigation-prev " aria-label="Previous page: 实体字符"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../md/html/gitbook.html" class="navigation navigation-next " aria-label="Next page: gitbook"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../gitbook/app.js"></script>
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"expandable-chapters":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
